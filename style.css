@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    margin-top: 30px;
+  }
+  canvas {
+    display: block;
+    margin: auto;
+    background: radial-gradient(circle at center, #222, #000);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    border: 3px solid #ffffff;
+    border-radius: 10px;
+  }
+  .score {
+    position: absolute;
+    top: 34 px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+  }
